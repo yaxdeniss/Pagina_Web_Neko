@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Mi blog</title>
+    <link rel="preload" href="../pagina web neko/css/css.css" as="style">
+    <link href="../pagina web neko/css/css.css" rel="stylesheet">
+    <style>
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .contenido-cabecera {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .foto {
+            margin-right: 20px;
+        }
+        .Yo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .main-container {
+            display: flex;
+            width: 80%;
+        }
+        .image-article-area {
+            flex: 1;
+            max-width: 40%; 
+            overflow: hidden;
+        }
+        .image-article-area img {
+            width: 100%;
+            height: auto;
+        }
+        .info-article {
+            flex: 1;
+            max-width: 60%; 
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="contenido-cabecera">
+            <div class="foto">
+                <img src="../pagina web neko/imagenes/yo.jpg" alt="Foto de Denisse Diaz" class="Yo" width="40px" height="40px">
+            </div>
+            <div class="nombre">
+                <a href="Miblog.html">
+                    Denisse Diaz
+                </a>
+            </div>
+        </div>
+        <div class="contacto">
+            <a href="denissdiaz.or96@gmail.com">
+                Envíame un correo
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <div class="main-container">
+                <div class="image-article-area">
+                    <a href="#">
+                        <img src="../pagina web neko/imagenes/maine_coon.jpg" alt="Maine Coon Cat">
+                    </a>
+                </div>
+                <div class="info-article">
+                    <div>
+                        <span>Categoría: Razas de gatos</span>
+                        <h1>Maine Coon Cat</h1>
+                        <h2>Historia</h2>
+                        <p>Se desconocen los orígenes ancestrales del Maine Coon solo hay especulaciones 
+                            y cuentos populares. Una historia involucra a María Antonieta, la reina de Francia 
+                            ejecutada en 1793. La historia cuenta que antes de su muerte, intentó escapar 
+                            de Francia con la ayuda del capitán Samuel Clough. Cargó el barco de Clough con sus 
+                            posesiones más preciadas, incluidos seis de sus gatos favoritos angora turco (o posiblemente siberianos). 
+                            Aunque ella no llegó a Estados Unidos, según esa leyenda todas sus mascotas lograron llegar a salvo a la 
+                            costa de Wiscasset, donde se reprodujeron con otras razas de pelo corto y se convirtieron en la raza 
+                            moderna de Maine Coon</p>
+
+                        
+
+                        <h2>Tamaño</h2>
+                        <p>El Maine Coon es una de las razas de gatos más grandes, con los machos generalmente siendo más grandes que las hembras. Los machos pueden pesar 
+                        entre 13 y 18 libras (aproximadamente 6 a 8 kilogramos), mientras que las hembras generalmente pesan entre 8 y 12 libras (aproximadamente 4 a 5 
+                        kilogramos).</p>
+                        
+                    </div>
+                    <div class="date-area">
+                        <time datetime="2023-07-22">22 de julio de 2023</time>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

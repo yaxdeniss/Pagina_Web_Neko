@@ -1,0 +1,133 @@
+:root{ /*esto es para definir colores*/
+    --primario: #36ebf8;
+    --secundario: #42858a;
+    --terciario: #084B8A;
+    --blanco: #ffffff;
+    --logocolorprimario: #8EB523;
+    --logocolorsecundario: #278BC4;
+}
+html{
+    font-size: 62.5%
+}
+
+body{
+    box-sizing: border-box;
+    border-width: 2rem;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.8rem; /* 1rem = 10px */
+   
+  }
+
+h2 {
+    
+}
+
+h3{
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 2.5rem;
+}
+
+.subtitulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navegacion{
+    
+    display:flex;
+    justify-content:space-evenly;   /* se ordena la barra navegadora */
+    box-sizing: border-box;
+    height: 25rem;
+    width: 25rem; 
+    
+
+}
+
+
+.clasesgatunas{ 
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: none;
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 10rem;
+    display: grid;
+    align-items: center ;
+}
+
+.gatos{
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cabecera{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.contenido-cabecera{
+    flex: 1 1 0%;
+    align-items: center;
+    display: flex;
+    height: 10rem;
+    
+    
+    
+}
+
+.foto{
+    justify-content: space-between ;
+    align-items: center;
+    display: flex;
+}
+
+.nombre{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.contacto{
+    border-color: transparent;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+
+}
+
+div{
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: #e5e7eb;
+
+}
